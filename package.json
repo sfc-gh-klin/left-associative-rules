@@ -1,0 +1,46 @@
+{
+  "name": "left-associative-rules",
+  "version": "0.1.0",
+  "description": "minimal example demonstrating parse failure in lezer 1.3.0",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.es.js",
+    "require": "./dist/index.cjs"
+  },
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@lezer/generator": "^1.2.2",
+    "@lezer/lr": "^1.3.2",
+    "mocha": "^8.1.3",
+    "rollup": "^2.27.1"
+  },
+  "peerDependencies": {
+    "lezer": "^0.13.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowflake-Labs/lezer-snowsql#lezer-snowsql-wip.git"
+  },
+  "scripts": {
+    "build": "bash ./build.sh",
+    "prepare": "npm run build",
+    "test": "mocha test/test-*.js",
+    "test-case": "sh -c 'mocha test/custom-test.js --env=$0'"
+  },
+  "keywords": [
+    "lezer",
+    "snowsql"
+  ],
+  "bugs": {
+    "url": "https://github.com/Snowflake-Labs/lezer-snowsql/issues"
+  },
+  "homepage": "https://github.com/Snowflake-Labs/lezer-snowsql#readme",
+  "dependencies": {
+    "chai": "^4.3.4"
+  }
+}

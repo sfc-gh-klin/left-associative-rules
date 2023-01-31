@@ -1,0 +1,28 @@
+@top StatementHandling {
+  
+  Stmts
+
+}
+
+Stmts {
+
+  AnyStmt+
+
+}
+
+AnyStmt {
+  A+ Smc
+}
+
+@skip { whitespace }
+
+
+@tokens {
+
+  whitespace { @whitespace+ }
+
+  A { "a" }
+
+  Smc { ";" }
+
+}
