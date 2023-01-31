@@ -11,7 +11,7 @@ Stmts {
 }
 
 AnyStmt {
-  A+ Smc
+  a+ Smc
 }
 
 @skip { whitespace }
@@ -21,7 +21,7 @@ AnyStmt {
 
   whitespace { @whitespace+ }
 
-  A { "a" }
+  a { "a" }
 
   Smc { ";" }
 

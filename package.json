@@ -22,10 +22,6 @@
   "peerDependencies": {
     "lezer": "^0.13.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Snowflake-Labs/lezer-snowsql#lezer-snowsql-wip.git"
-  },
   "scripts": {
     "build": "bash ./build.sh",
     "prepare": "npm run build",
@@ -33,13 +29,8 @@
     "test-case": "sh -c 'mocha test/custom-test.js --env=$0'"
   },
   "keywords": [
-    "lezer",
-    "snowsql"
+    "lezer"
   ],
-  "bugs": {
-    "url": "https://github.com/Snowflake-Labs/lezer-snowsql/issues"
-  },
-  "homepage": "https://github.com/Snowflake-Labs/lezer-snowsql#readme",
   "dependencies": {
     "chai": "^4.3.4"
   }

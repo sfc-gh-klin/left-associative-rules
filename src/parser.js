@@ -2,14 +2,14 @@
 import {LRParser} from "@lezer/lr"
 export const parser = LRParser.deserialize({
   version: 14,
-  states: "!WOVQPOOOOQO'#Cc'#CcO[QPO'#C_OOQO'#Cb'#CbOdQPO'#C^QOQPOOOOQO-E6a-E6aOOQO,58y,58yOOQO-E6`-E6`",
-  stateData: "l~OYOS~OSPO~OSPOTVO~OSPOWQX~O",
-  goto: "mWPPX[PP`fRTOTROSQSORWSSQOSRUQ",
-  nodeNames: "⚠ StatementHandling Stmts AnyStmt A Smc",
+  states: "!WOVQPOOOOQO'#Cb'#CbO[QPO'#C_OOQO'#Ca'#CaOdQPO'#C^QOQPOOOOQO-E6`-E6`OOQO,58y,58yOOQO-E6_-E6_",
+  stateData: "l~OXOS~OYPO~OSVOYPO~OYPOVQX~O",
+  goto: "lVPPWZP_eRTOTROSQSORWSSQOSRUQ",
+  nodeNames: "⚠ StatementHandling Stmts AnyStmt Smc",
   maxTerm: 10,
   skippedNodes: [0],
   repeatNodeCount: 2,
-  tokenData: "!v~R[X^wpqw!]!^!l#T#U!q#y#zw$f$gw#BY#BZw$IS$I_w$I|$JOw$JT$JUw$KV$KWw&FU&FVw~|YY~X^wpqw#y#zw$f$gw#BY#BZw$IS$I_w$I|$JOw$JT$JUw$KV$KWw&FU&FVw~!qOT~~!vOS~",
+  tokenData: "!v~R[X^wpqw!]!^!l#T#U!q#y#zw$f$gw#BY#BZw$IS$I_w$I|$JOw$JT$JUw$KV$KWw&FU&FVw~|YX~X^wpqw#y#zw$f$gw#BY#BZw$IS$I_w$I|$JOw$JT$JUw$KV$KWw&FU&FVw~!qOS~~!vOY~",
   tokenizers: [0],
   topRules: {"StatementHandling":[0,1]},
   tokenPrec: 0
@@ -19,5 +19,4 @@ export const
   StatementHandling = 1,
   Stmts = 2,
   AnyStmt = 3,
-  A = 4,
-  Smc = 5
+  Smc = 4

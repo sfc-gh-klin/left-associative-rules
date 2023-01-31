@@ -3,5 +3,4 @@ export const
   StatementHandling = 1,
   Stmts = 2,
   AnyStmt = 3,
-  A = 4,
-  Smc = 5
+  Smc = 4

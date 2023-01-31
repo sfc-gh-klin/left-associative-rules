@@ -8,5 +8,4 @@ export const
   StatementHandling: number,
   Stmts: number,
   AnyStmt: number,
-  A: number,
   Smc: number
